@@ -1,0 +1,123 @@
+/*==FONT IMPORT==*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/*==GENERAL STYLE==*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*==CONTENT==*/
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #dbefff;
+    overflow: hidden;
+    transition: background 0.4s;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:450px;
+    min-width: 450px;
+    border-radius: 10px;
+    flex-direction: column;
+    background: aliceblue;
+    padding: 20px 15px;
+    position: relative;
+    transition: background 0.4s;
+}
+.img img{
+    width: 180px;
+    height: auto;
+    border-radius: 50%;
+    border: #0088d2 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0;
+}
+.text{
+    text-align: center;
+    margin-bottom: 12px;
+}
+.text h1{
+    color: #0088d2;
+}
+.text p{
+    color: #808080;
+    font-size: 16px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    padding: 15px;
+    background: #0088d2;
+    border: #0085cc 2px solid;
+    border-radius: 10px;
+    color: #dbefff;
+    font-size: 20px;
+    font-weight: 500;
+    outline: none;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: all 0.2s;
+}
+.btn:hover{
+    background: #0096e7;
+    color: #fff;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    background: #dbefff;
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon i{
+    font-size: 30px;
+    color: #0088d2;
+    position: relative;
+    left: 2px;
+}
+
+/*==DARK MODE==*/
+.header.dark{
+    background: #202026;
+}
+.header.dark .container{
+    background: #323840;
+}
+.header.dark .text p{
+    color: #fff;
+}
+
+/*==SCREEN RESPONSIBILITY==*/
+@media (max-width:610px){
+    .container{
+        transform: scale(90%);
+    }
+}
+@media (max-width:520px){
+    .container{
+        transform: scale(80%);
+    }
+}
+@media (max-width:430px){
+    .container{
+        transform: scale(70%);
+    }
+}
