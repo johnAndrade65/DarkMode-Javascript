@@ -1,12 +1,11 @@
 ﻿# DarkMode-Javascript
-Simple Dark Mode created using HTML - CSS - Javascript!.
-The main arts of the code will be commented!.
-Responsiveness using @media to adjust to different screen sizes.
+<h5>Simple Dark Mode created using HTML - CSS - Javascript!.
+The main arts of the code will be commented!.</h5>
+<h6>Responsiveness using @media to adjust to different screen sizes.</h6>
 
-# DarkMode-Javascript
-Dark Mode simples criado usando HTML - CSS - Javascript!. 
-As principais artes do codigo estarão comentadas!.
-Reponsividade usando @media para ajustar a diferentes tamanhos de telas.
+<h5>Dark Mode simples criado usando HTML - CSS - Javascript!. 
+As principais artes do codigo estarão comentadas!.</h5>
+<h6>Reponsividade usando @media para ajustar a diferentes tamanhos de telas.</h6>
 
 ﻿<div style="display: inline_block"><br/>
   <img align="center" alt="html5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
